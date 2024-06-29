@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .btn {
+        @apply p-2 bg-purple-500 text-cyan-100 rounded-lg
+    }
+}
+
+a.active {
+    color: purple;
+}
